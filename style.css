@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+
+}
+.card{
+    width:350px;
+    height: 600px;
+    margin: 3rem auto;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+}
+.profile-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+.profile-info-img{
+    margin-bottom: 1.3rem;
+}
+.profile-info-img img{
+    border-radius: 100px;
+    width: 90px;
+}
+.profile-info h2{
+    margin-bottom: 0.5rem;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+}
+.profile-info h4{
+    margin-bottom: 1.3rem;
+    color: hsl(75, 94%, 57%);
+    font-size: 0.9rem;
+}
+.profile-info p{
+    color: hsl(0, 0%, 100%);
+    font: size 0.5em;
+    font-weight: 200;
+}
+.profile-links{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+.profile-links button{
+    height: 3.2rem;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1rem;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+}
+.profile-links button:hover{
+    background-color:hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+    
+}
